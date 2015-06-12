@@ -5,7 +5,7 @@
 'use strict';
 
 var React = require('react-native');
-var Main = require('./App/Components/Main');
+var RepoListContainer = require('./App/Components/RepoListContainer');
 
 var {
   AppRegistry,
@@ -20,7 +20,7 @@ var githubstars = React.createClass({
       style={styles.container}
         initialRoute={{
           title: 'Github Stars',
-          component: Main 
+          component: RepoListContainer 
         }} />
     );
   }
